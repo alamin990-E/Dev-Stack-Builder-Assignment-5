@@ -1,10 +1,11 @@
 import { Suspense } from "react";
 import type { Itechnology } from "./components/Types/TechonologiesType";
 import Technologies from "./components/ExploreTech/TechCards&Stack";
-import Navbar from "./components/Navbar/Navbar";
+
 import Hero from "./components/Hero";
 import MobileFooter from "./components/Footer/MobileFooter";
 import DesktopFooter from "./components/Footer/DesktopFooter";
+import Navbar from "./components/Navbar/Navbar";
 
 
 
