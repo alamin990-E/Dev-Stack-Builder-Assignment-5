@@ -13,7 +13,7 @@ export interface TechStackProps {
 export default function TechStack({ buttonType,setButtonType,selectedTech,setSelectedTech }: TechStackProps) {
 
     const handleRemoveTech =(techonology:Itechnology)=>{
-        const resTech = selectedTech.filter(techCard => techCard.name !== techonology.name)
+        const resTech = selectedTech.filter(techCard =>  techCard.id !== techonology.id)
         setSelectedTech(resTech)
         const resButton = buttonType.filter(buttonId => buttonId !== techonology.id)
         setButtonType(resButton)
@@ -54,10 +54,10 @@ export default function TechStack({ buttonType,setButtonType,selectedTech,setSel
               </p>
 
               <div className="flex  flex-col gap-4">
-                {selectedTech.map((techonology, ind) => {
+                {selectedTech.map((techonology) => {
                   return (
                     <div
-                      key={ind}
+                      key={techonology.id}
                       className="flex justify-between items-center p-2.5 rounded-xl border border-gray-200"
                     >
                       <div className="flex justify-center items-center gap-3">

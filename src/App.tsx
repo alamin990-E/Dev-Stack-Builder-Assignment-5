@@ -5,7 +5,8 @@ import Technologies from "./components/ExploreTech/TechCards&Stack";
 import Hero from "./components/Hero";
 import MobileFooter from "./components/Footer/MobileFooter";
 import DesktopFooter from "./components/Footer/DesktopFooter";
-import Navbar from "./components/Navbar/Navbar";
+import Navbar from "./components/Navbar/NavBar";
+
 
 
 
