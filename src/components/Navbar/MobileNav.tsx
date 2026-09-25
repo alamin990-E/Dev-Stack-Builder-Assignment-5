@@ -25,10 +25,10 @@ export default function MobileNav() {
 
       {/* Mobile button */}
       <div className="flex items-center w-35 justify-center gap-1">
-        <button className="rounded-full bg-white py-1.5 px-3 text-[10px] md:text-xs hover:text-[#DB2777] font-medium text-[#334155] cursor-pointer border-0">
+        <button className="rounded-full bg-white py-1.5 px-3 text-[10px] sm:text-xs hover:text-[#DB2777] font-medium text-[#334155] cursor-pointer border-0">
           Sign In
         </button>
-        <button className="rounded-full bg-[#D91B7E] py-1.25 px-2.5 text-[10px] md:text-xs hover:opacity-90 font-semibold shadow-md  text-white cursor-pointer">
+        <button className="rounded-full bg-[#D91B7E] py-1.25 px-2.5 text-[10px] sm:text-xs hover:opacity-90 font-semibold shadow-md  text-white cursor-pointer">
           Sign Up
         </button>
       </div>

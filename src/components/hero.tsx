@@ -19,10 +19,10 @@ export default function Hero() {
         </p>
         {/* hero button  */}
         <div className="flex gap-5 items-center mt-10 justify-center md:justify-start">
-          <button className="bg-brand-gradient py-1.5 px-3 sm:py-2.5 sm:px-5 text-white font-medium rounded-xl hover:opacity-90 cursor-pointer">
+          <button className="bg-brand-gradient py-1.5 px-3 md:py-2.5 md:px-5 text-white font-medium rounded-xl hover:opacity-90 cursor-pointer">
             Explore Technologies
           </button>
-          <button className="py-2 px-7 sm:py-2.5 sm:px-14 border border-gray-300 rounded-xl font-medium hover:bg-gray-100 cursor-pointer">
+          <button className="py-2 px-7 md:py-2.5 md:px-14 border border-gray-300 rounded-xl font-medium hover:bg-gray-100 cursor-pointer">
             Learn More
           </button>
         </div>
