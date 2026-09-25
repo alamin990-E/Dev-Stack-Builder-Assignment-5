@@ -17,7 +17,7 @@ export default function Techonology({
   setButtonType,
   selectedTech,
   setSelectedTech,
-}: TechonologyProps) {
+}:TechonologyProps) {
   const isAdded = buttonType.some((techid) => techid === techonology.id);
 
   const handleButton = (techonology: Itechnology) => {

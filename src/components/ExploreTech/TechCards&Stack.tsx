@@ -16,7 +16,7 @@ export default function Technologies({
   const [selectedTech, setSelectedTech] = useState<Itechnology[]>([]);
 
   return (
-    <div className="grid grid-rows-2  md:grid-cols-3 lg:grid-cols-4 gap-7">
+    <div className="grid grid-cols-1  md:grid-cols-3 lg:grid-cols-4 gap-7">
       {/* Techonologices Card */}
       <div className="col-span-1 md:col-span-2 lg:col-span-3 pt-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">

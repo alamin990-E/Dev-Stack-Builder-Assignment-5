@@ -16,7 +16,7 @@ export default function MobileNav() {
   return (
     <nav className=" relative container mx-auto flex justify-between items-center py-2.5 px-4">
       {/* Mobile Hamburger */}
-      <div className="cursor-pointer text-[#7B7171] ">
+      <div className="cursor-pointer w-35  text-[#7B7171] ">
         <RxHamburgerMenu onClick={handleMenu} size={28} />
       </div>
 
@@ -24,7 +24,7 @@ export default function MobileNav() {
       <img className="w-28 h-auto" src={Logo} alt="Logo" />
 
       {/* Mobile button */}
-      <div className="flex items-center justify-center gap-1">
+      <div className="flex items-center w-35 justify-center gap-1">
         <button className="rounded-full bg-white py-1.5 px-3 text-xs hover:text-[#DB2777] font-medium text-[#334155] cursor-pointer border-0">
           Sign In
         </button>

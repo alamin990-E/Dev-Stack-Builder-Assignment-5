@@ -3,6 +3,9 @@ import type { Itechnology } from "./components/Types/TechonologiesType";
 import Technologies from "./components/ExploreTech/TechCards&Stack";
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero";
+import MobileFooter from "./components/Footer/MobileFooter";
+import DesktopFooter from "./components/Footer/DesktopFooter";
+
 
 
 
@@ -27,7 +30,7 @@ function App() {
         </section>
 
         {/* Explore the Technologies  */}
-        <section className="container mx-auto px-4 md:px-0 mt-3 p-2 md:pt-5 md:mt-15">
+        <section className="container mx-auto px-4 md:px-0 mt-3 p-2 md:pt-5 md:mt-15 md:pb-10">
 
            <div className="text-center md:text-start">
               <h2 className="text-2xl md:text-3xl lg:text-4xl font-extrabold text-[#0F172A] ">Explore the <span className="bg-linear-to-r from-[#EC4899] to-[#8B5CF6] bg-clip-text text-transparent">Technologies</span></h2>
@@ -38,9 +41,16 @@ function App() {
                 <Technologies promiseTechonologies={promiseTechonologies()}></Technologies>
             </Suspense>
         </section>
-
-
       </main>
+       {/* Footer  */}
+        <footer>
+          <div className="md:block hidden">
+            <DesktopFooter ></DesktopFooter>
+          </div>
+          <div  className="md:hidden block">
+            <MobileFooter></MobileFooter>
+          </div>
+        </footer>
     </>
   );
 }
